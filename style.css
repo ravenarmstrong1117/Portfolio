@@ -23,6 +23,10 @@ h2 {
  color: gold;
 }
 
+p {
+ font-size: 18px;
+}
+
 /* box around image */
 .box
 {
