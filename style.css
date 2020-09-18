@@ -1,0 +1,71 @@
+
+/* Image-White Text-Georgia Font */
+header {
+background-image: url(images/background.jpg);
+ color: white;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+ margin-top: 0;
+ padding-top: 80px;
+ padding-bottom: 80px;
+ 
+}
+/* text size for name */
+h1 {
+  font-size: 60px;
+
+}
+
+/* underlined sections */
+h2 {
+ font-size: 40px;
+ text-decoration: underline;
+ color: gold;
+}
+
+/* box around image */
+.box
+{
+  width: 400px;
+  height: 400px;
+  background-color: gold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* main section */
+main {
+  background-image: url(images/background.jpg);
+text-align: center;
+color: white;
+padding-top: 0px;
+padding-bottom: 30px;
+margin-bottom: 0px;
+}
+
+
+/* line breaks to seperate sections */
+hr {
+  border: 2px solid gold;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* footer section */
+footer {
+background-image: url(images/background.jpg);
+ color: white;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+margin-top: 0px;
+ padding-bottom: 10px;
+}
+/* pseudo classes */
+a {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+a:link {color:white;}
+a:visited {color:gold;}
+a:hover { color:black;}
+a:active { color: red;}
